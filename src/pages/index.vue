@@ -17,8 +17,8 @@ defineOptions({
       <div aspect-video w-full lg:w-5xl my-auto>
         <browser-window>
           <video muted loop autoplay playsinline>
-            <source src="dozzle.webm" type="video/webm">
-            <source src="dozzle.mp4" type="video/mp4">
+            <source src="../media/dozzle.webm" type="video/webm">
+            <source src="../media/dozzle.mp4" type="video/mp4">
           </video>
         </browser-window>
       </div>
