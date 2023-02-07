@@ -4,7 +4,10 @@ import {
   presetIcons,
   presetUno,
   presetWebFonts,
+
 } from 'unocss'
+
+import { presetTypography } from '@unocss/preset-typography'
 
 export default defineConfig({
   shortcuts: [
@@ -15,6 +18,7 @@ export default defineConfig({
   presets: [
     presetUno(),
     presetAttributify(),
+    presetTypography(),
     presetIcons({
       scale: 1.2,
       warn: true,
