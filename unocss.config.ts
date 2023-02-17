@@ -25,20 +25,11 @@ export default defineConfig({
     }),
     presetWebFonts({
       fonts: {
+        sans: 'Roboto:200',
         playfair: [
           {
             name: 'Playfair Display',
             weights: [100, 200, 400, 700],
-          },
-        ],
-        roboto: [
-          {
-            name: 'Roboto',
-            weights: [100, 200, 500, 700],
-          },
-          {
-            name: 'sans-serif',
-            provider: 'none',
           },
         ],
       },
