@@ -13,6 +13,6 @@ const { text, copy, copied, isSupported } = useClipboard({ source })
     <code ref="body" class="not-prose" @click="copy()">
       <slot />
     </code>
-    <a v-if="isSupported" icon-btn i-carbon-copy @click="copy()" />
+    <a v-if="isSupported" icon-btn :class="copied ? 'i-carbon-checkmark' : 'i-carbon-copy'" text-2xl @click="copy()" />
   </div>
 </template>
