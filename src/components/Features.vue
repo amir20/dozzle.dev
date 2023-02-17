@@ -9,7 +9,7 @@
         What's Dozzle
       </h2>
       <div grid="lg:col-span-2" prose text-lg>
-        <p>Dozzle is a small Docker container which provides a web-based interface for viewing logs of other Docker containers running on the same system. It consumes very little memory and CPU.</p>
+        <p>Dozzle is a small Docker container which provides a web-based interface for viewing logs of other Docker containers running on the same system.</p>
         <p>Dozzle is open sourced and officially sponsored by Docker OSS.</p>
 
         <p><strong>Real-time log streaming</strong> — allows you to view logs of other Docker containers in real-time. As new log entries are generated, they are streamed to the web interface without needing to refresh the page.</p>
@@ -25,6 +25,8 @@
         <p><strong>Split screen</strong> — able to view muliple logs at the same by spliting the screen between multiple containers.</p>
 
         <p><strong>Simple Authentication</strong> — simple username and password authentication supported out of the box.</p>
+
+        <p><strong>Lightweight</strong> — a lightweight application written in Go which doesn't consume a lot of memory or cpu. It can be run alongside other containers without causing performance issues.</p>
       </div>
     </section>
   </div>
