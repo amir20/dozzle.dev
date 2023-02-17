@@ -6,22 +6,26 @@
   <div mx-auto container space-y-20 text="gray-700 dark:gray-200" p="x-4">
     <section grid="~ lg:cols-3" gap="y-10 x-6">
       <h2 text="2xl" tracking-tight>
-        What's included
+        What's Dozzle
       </h2>
       <div grid="lg:col-span-2" prose text-lg>
-        <div>
-          <p>Pocket is a beautiful mobile app marketing template built with Tailwind CSS and Next.js, designed and built by the Tailwind CSS team. It's production-ready and easy to customize, making it the perfect starting point for your new mobile app website.</p>
-          <p>We've taken just as much care with the code as we have with the design, so it's also an invaluable resource if you want to study how experts build a website with Tailwind CSS and React.</p>
-        </div>
+        <p>Dozzle is a small Docker container which provides a web-based interface for viewing logs of other Docker containers running on the same system. It consumes very little memory and CPU.</p>
+        <p>Dozzle is open sourced and officially sponsored by Docker OSS.</p>
 
-        <p><strong>Built by experts</strong> — you can trust that all of the code is written following Tailwind CSS best practices, because it’s written by the same team who created and maintain the framework.</p>
+        <p><strong>Real-time log streaming</strong> — allows you to view logs of other Docker containers in real-time. As new log entries are generated, they are streamed to the web interface without needing to refresh the page.</p>
 
-        <p><strong>Built by experts</strong> — you can trust that all of the code is written following Tailwind CSS best practices, because it’s written by the same team who created and maintain the framework.</p>
+        <p><strong>Live CPU and memory usage</strong> — see historical memory and cpu usage to easily see memory trend.</p>
+
+        <p><strong>Search across many containers</strong> — quickly search containers using <key-shortcut label="k" /> to find logs for a specifc container.</p>
+
+        <p><strong>Color-coded logs</strong> — log entries are color-coded and grouped based on their level (error, warning, info, etc.) to help you quickly identify issues.</p>
+
+        <p><strong>Search</strong> — you can search logs for specific keywords or <code>/regex/</code> making it easy to find relevant log entries.</p>
+
+        <p><strong>Split screen</strong> — able to view muliple logs at the same by spliting the screen between multiple containers.</p>
+
+        <p><strong>Simple Authentication</strong> — simple username and password authentication supported out of the box.</p>
       </div>
     </section>
   </div>
 </template>
-
-<style lang="scss" scoped>
-
-</style>
