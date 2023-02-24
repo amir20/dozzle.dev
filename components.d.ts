@@ -17,6 +17,7 @@ declare module '@vue/runtime-core' {
     KeyShortcut: typeof import('./src/components/KeyShortcut.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
+    SubSection: typeof import('./src/components/SubSection.vue')['default']
     TheFooter: typeof import('./src/components/TheFooter.vue')['default']
     TheInput: typeof import('./src/components/TheInput.vue')['default']
   }
