@@ -1,7 +1,3 @@
 <template>
-  <main>
-    <hero />
-    <features />
-    <installation />
-  </main>
+  <RouterView />
 </template>
