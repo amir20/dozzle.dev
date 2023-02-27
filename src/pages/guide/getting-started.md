@@ -2,8 +2,7 @@
 title: Getting started
 ---
 
-What is dozzle?
-
+Getting started 
 <route lang="yaml">
 meta:
   layout: docs
