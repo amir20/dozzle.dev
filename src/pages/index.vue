@@ -5,21 +5,9 @@ defineOptions({
 </script>
 
 <template>
-  <main>
-    <hero />
+  <hero />
+  <div mx-auto container space-y-14 divide-y divide="gray-200 dark:gray-800">
     <features />
     <installation />
-  </main>
-
-  <router-link to="/guide/what-is-dozzle">
-    What is Dozzle?
-  </router-link>
-
-  <router-link to="/guide/getting-started">
-    Getting Started
-  </router-link>
-
-  <router-link to="/test">
-    test
-  </router-link>
+  </div>
 </template>
